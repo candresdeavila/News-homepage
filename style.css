@@ -123,4 +123,20 @@ section {
     font-weight: bold;
 }
 
+@media (min-width: 991px) {
+    .img-section-desktop{
+        display: none;
+    }
+    .img-section-mobile{
+        display: block;
+    }
+}
 
+@media only screen and (max-width: 720px) {
+    .img-section-desktop{
+        display: none;
+    }
+    .img-section-mobile img {
+        display: block;
+    }
+}
