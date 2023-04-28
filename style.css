@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    position: relative;
+    font-family: var(--inter-font);
+    background-color: var(--light-cream);
+}
+
+header {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.navbar {
+   padding: 2rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item{
+    margin-left: 30px;
+}
+ul{
+    margin-right: 40px;
+}
+
+.navbar-brand {
+    
+    margin-right: 100px;
+}
+section {
+   display: flex;
+   margin-left: 80px;
+   margin-right: 80px;
+  
+   
+}
+
+.featured {
+    gap: 33.6px;
+    max-width: 729.6px;
+    margin: 0 auto;
+}
+.featured img {
+    max-height: 300.8px;
+    object-fit: cover;
+    object-position: top;
+}
+.featured div {
+    gap: 30.4px;
+}
+
+.featured div p {
+    color: rgb(0, 0, 22);
+}
+.featured h2 {
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+.new {
+    gap: 10px;
+    background-color: rgb(0, 0, 20);
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.new-posts div {
+    gap: 2rem;
+}
+.new h2 {
+    color: rgb(248, 165, 40);
+    font-size: 2.5rem;
+}
+.new-posts {
+    gap: 1.8rem;
+}
+.new-posts div {
+    gap: 0.5rem;
+}
+
+.new-posts div h3 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.new-posts div p {
+    color: rgb(202, 202, 202);
+    word-spacing: 1px;
+    line-height: 1.6rem;
+}
+.new-posts hr {
+    height: 1px;
+    background-color: var(--gsrayish-blue);
+    border: none;
+    opacity: 0.5;
+}
+
+.container {
+    padding: 3rem;
+}
+
+.row .col-sm h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
